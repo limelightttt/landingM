@@ -11,46 +11,60 @@
 }
 
 section {
-  padding: 0 120px 160px;
+  padding: 0 calc(10.6vw - 15.8px) calc(11vw + 18.6px);
+}
+
+.bg {
+  background-image: url(../img/html_css_js.png);
+  background-repeat: no-repeat;
+  background-size: calc(24vw + 89px);
+  background-position: top calc(4.9vw + 58.6px) right calc(6.1vw - 19.8px);
 }
 
 .logo {
+  width: calc(8.8vw + 182px);
   margin-top: 37px;
-  margin-bottom: 85px;
+  margin-bottom: calc(6.3vw + 4.3px);
 }
 
 .infoWrapper {
   display: flex;
   gap: 30px 160px;
   flex-wrap: wrap;
-  margin-bottom: 76px;
+  margin-bottom: calc(3.1vw + 36px);
 }
 
 .title {
-  font-size: 21px;
+  font-size: calc(0.6vw + 14px);
   line-height: 140%;
 }
 
 .subTitle {
-  font-size: 21px;
   line-height: 140%;
   font-weight: 700;
+  font-size: calc(0.6vw + 14px);
 }
 
 h1 {
-  font-size: 80px;
+  font-size: calc(4.2vw + 26px);
   line-height: 110%;
   font-family: "Chava" ,sans-serif;
-  margin-bottom: 40px;
+  margin-bottom: calc(2.2vw + 12px);
 }
 
 .infoText {
   font-weight: 300;
-  font-size: 27px;
+  font-size: calc(1vw + 14.3px);
   line-height: 126%;
   margin-bottom: 20px;
-  width: 930px;
+  width: calc(66.6vw + 77.6px);
   margin-bottom: 20px;
+  }
+
+  .btnsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 30px;
   }
 
 .purple {
@@ -63,7 +77,6 @@ h1 {
   font-weight: 500;
   font-size: 18px;
   cursor: pointer;
-  margin-right: 30px;
 }
 .white {
   width: 328px;
@@ -75,4 +88,57 @@ h1 {
   font-weight: 500;
   font-size: 18px;
   cursor: pointer;
+}
+
+
+.forImg {
+  margin-bottom: calc(11vw + 18.6px);
+
+}
+
+h2 {
+  font-size: calc(6.2vw + 56.8px);
+  line-height: 117%;
+  margin-bottom: calc(5.5vw + 19.2px);
+  font-weight: 500;
+}
+
+
+
+.ftB , .ftG , .sdB , .sdG {
+  width: calc(3.3vw + 167.6px);
+
+}
+
+
+
+.firstimages {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 65px;
+}
+
+
+.secondimages {
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  font-size: calc(1vw + 14.3px);
+  margin-bottom: calc(1.1vw + 5.8px);
+}
+
+.secondInfoText {
+  font-size: calc(1vw + 14.3px);
+  line-height: 140%;
+  margin-bottom: calc(1.3vw + 35px);
+  width: calc(13.5vw + 277.4px);
+  height: calc(6.1vw + 102.2px);
+}
+
+.firstimages, .secondimages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 90px;
 }
