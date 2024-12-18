@@ -174,6 +174,95 @@ h1 {
 
 
 
+#titleThirdSection {
+  font-size: calc(2.7vw + 24px);
+  width: calc(29.2vw + 220px);
+  text-transform: uppercase;
+  margin-bottom: calc(5.5vw + 19px);
+  font-weight: 500;
+  line-height: 118%;
+}
+
+.legendWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(3.4vw + 7px);
+  align-items: center;
+}
+
+.legend {
+  flex-basis: 400px;
+  flex-grow: 1;
+}
+
+.imgLegend {
+  width: calc(7.7vw + 300px);
+}
+
+.legendInfo {
+  flex-grow: 1000;
+}
+
+.legendInfo h3 {
+  font-size: calc(1.1vw + 34px);
+  line-height: 121%;
+  margin-bottom: calc(1.1vw + 6px);
+}
+
+.legendInfo span {
+  display: block;
+  font-size: calc(1vw + 14px);
+  line-height: 140%;
+  width: calc(26.3vw + 230px);
+  margin-bottom: calc(5.5vw + 19.3px);
+}
+
+.legendCard {
+  display: grid;
+  grid-template: 1fr 1fr / repeat(2,calc(10.4vw + 107px));
+  gap: calc(1.1vw + 26px) calc(8.8vw - 23px);
+  grid-template-areas:  "smile cup"
+                        "bag keyboard";
+}
+
+.card:nth-child(1) {
+  grid-area: smile;
+}
+.card:nth-child(2) {
+  grid-area: cup;
+}
+.card:nth-child(3) {
+  grid-area: bag;
+}
+.card:nth-child(4) {
+  grid-area: keyboard;
+}
+.card img {
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: calc(0.6vw + 14px);
+}
+
+@media (max-width: 1280px) {
+  .legend {
+    display: flex;
+    justify-content: center;
+  }
+  .legendInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .legendCard {
+    grid-template-areas:  "smile keyboard"
+                          "cup bag";
+  }
+}
+
+
+
 h2 {
   font-size: calc(2.7vw + 24px);
   line-height: 118%;
@@ -203,6 +292,44 @@ h2 {
   font-size: calc(1vw + 14.3px);
   line-height: 140%;
 }
+
+
+
+.contentDiplom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 19px;
+  align-items: center;
+}
+
+.diplomIMG {
+  flex-basis: 430px;
+  flex-grow: 1;
+}
+
+.imgDiplomStudent {
+  width: calc(11.3vw + 286px);
+}
+
+.infoDiplom {
+  flex-grow: 1000;
+}
+
+.infoDiplom h3 {
+  font-size: calc(2.7vw + 24px);
+  line-height: 118%;
+  text-transform: uppercase;
+  width: calc(27.6vw + 224px);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.infoDiplom p {
+  font-size: calc(1vw + 14px);
+  line-height: 140%;
+  width: calc(20.6vw + 251px);
+}
+
 
 
 
