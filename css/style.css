@@ -6,7 +6,6 @@
   text-decoration: none;
   font-family: 'TT Hoves', sans-serif;
   color: #222222;
-  ;
 }
 
 section {
@@ -16,7 +15,7 @@ section {
 .firstSection {
   background-image: url(../img/html_css_js.png);
   background-repeat: no-repeat;
-  background-size: calc(24vw + 89.5px);
+  background-size: calc(23vw + 86.5px);
   background-position: top calc(4.9vw + 58.6px) right calc(6.1vw - 19.8px);
 }
 
@@ -213,11 +212,6 @@ h1 {
   color: #2F1D4E;
   text-transform: uppercase;
 }
-
-
-
-
-
 
 
 #titleThirdSection {
@@ -467,32 +461,35 @@ h2 {
 
 .contentStBox {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px 1px;
-  flex-direction: row;
+  align-items: center;
   }
 
-  @media (max-width: 375px) {
+  /* @media (max-width: 375px) {
     .contentStBox {
       flex-direction: column;
     }
+  } */
+  
+  .infoStImg {
+    flex-basis: 570px;
+    flex-grow: 1;
   }
-
-
+  
 .studentBoxImg {
   width: calc(27.7vw + 224px);
 }
 
 .infoSt {
-  display: flex;
-  flex-wrap: wrap;
-  width: calc(21.2vw + 248px);
-  margin-top: calc(7.7vw - 9px);
-  margin-bottom: calc(18.8vw - 10px);
-  gap: 20px 25px;
+  flex-grow: 1000;
+  
 }
 
-.contentStBox ul li {
-  font-size: calc(0.3vw + 17px);
+.infoSt span {
+  display: block;
+  font-size: calc(0.3vw + 16.7px);
+  width: calc(18.2vw + 220px);
   margin-bottom: calc(0.6vw + 18px);
 }
 
