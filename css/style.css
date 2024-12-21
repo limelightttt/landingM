@@ -174,6 +174,52 @@ h1 {
 
 
 
+.saleTimer {
+  background-color: #6E3ABA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: calc(4.4vw + 23.4px) calc(16.5vw - 36px);
+  gap: calc(4.1vw + 5px);
+}
+
+#saleTitle {
+  font-size: calc(2vw + 26.5px);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#saleTimerContainer {
+  display: flex;
+  gap: 0 calc(5.3vw + 12px);
+  justify-content: center;
+
+}
+
+.saleTimerCard {  
+  text-align: center;
+}
+
+.saleTimerCard h4 {
+  font-size: calc(9vw + 14px);
+  font-family: 'Chava', sans-serif;
+  color: #2F1D4E;
+  
+}
+
+.saleTimerCard span {
+  font-size: calc(1.9vw + 3px);
+  color: #2F1D4E;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
 #titleThirdSection {
   font-size: calc(2.7vw + 24px);
   width: calc(29.2vw + 220px);
@@ -452,5 +498,45 @@ h2 {
 
 
 
+.secondTimer {
+  background-color: #6E3ABA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: calc(4.4vw + 23.4px) calc(16.5vw - 36px);
+  gap: calc(4.1vw + 5px);
+}
+
+#secondTimerTitle {
+  font-size: calc(2vw + 26.5px);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: calc(4.1vw + 4.7px);
+}
+
+#secondTimerContainer {
+  display: flex;
+  gap: 0 calc(5.3vw + 12px);
+  justify-content: center;
+
+}
+
+.secondTimerCard {  
+  text-align: center;
+}
+
+.secondTimerCard h4 {
+  font-size: calc(9vw + 14px);
+  font-family: 'Chava', sans-serif;
+  color: #2F1D4E;
+  
+}
+
+.secondTimerCard span {
+  font-size: calc(1.9vw + 3px);
+  color: #2F1D4E;
+  text-transform: uppercase;
+}
 
 
